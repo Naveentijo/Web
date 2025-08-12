@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-/* General Page Styles */
+
 body {
+    
     font-family: Arial, sans-serif;
     background: #f0f4f8;
     margin: 0;
@@ -81,87 +81,4 @@ input:valid, select:valid, textarea:valid {
         padding: 15px;
     }
 }
-=======
-/* General Page Styles */
-body {
-    font-family: Arial, sans-serif;
-    background: #f0f4f8;
-    margin: 0;
-    padding: 0;
-}
 
-.container {
-    background: white;
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-/* Form Elements */
-label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-input, select, textarea, button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-/* Button Styling */
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Back Button */
-.back-btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px;
-    background: #28a745;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.back-btn:hover {
-    background: #218838;
-}
-
-/* Validation States */
-input:invalid, select:invalid, textarea:invalid {
-    border-color: red;
-}
-
-input:valid, select:valid, textarea:valid {
-    border-color: green;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .container {
-        margin: 20px;
-        padding: 15px;
-    }
-}
->>>>>>> d62e5b2e885c75c82ef08da215bb0a05482bbfde
